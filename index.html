@@ -1,371 +1,307 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>My Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<nav>
-<div class="logo">Portfolio</div>
-
-<ul class="navbar">
-<li><a class="navlink" href="#home">Home</a></li>
-<li><a class="navlink" href="#about">About</a></li>
-<li><a class="navlink" href="#skills">Skills</a></li>
-<li><a class="navlink" href="#projects">Projects</a></li>
-<li><a class="navlink" href="#contacts">Contact</a></li>
-</ul>
-</nav>
-
-<!-- HOME -->
-<section id="home">
-
-<div class="home-text">
-
-<h1>Hi, I'm Cedric Dion O. Montano</h1>
-
-<h3 class="role">Aspiring Game Developer</h3>
-
-<p class="home-description">
-I develop games using Unity and C#, focusing on building gameplay systems
-and mechanics. I enjoy testing, debugging, and refining game logic
-to ensure smooth and reliable player experiences.
-</p>
-
-<div class="socials">
-
-<a href="https://www.facebook.com/cedric.montano.79" target="_blank" class="social-icon">
-<img src="Socials/facebook.png" alt="Facebook">
-</a>
-
-<a href="https://www.instagram.com/" target="_blank" class="social-icon">
-<img src="Socials/instagram.png" alt="Instagram">
-</a>
-
-<a href="https://www.linkedin.com/" target="_blank" class="social-icon">
-<img src="Socials/linkedin.png" alt="LinkedIn">
-</a>
-
-<a href="https://github.com/Crinx07" target="_blank" class="social-icon">
-<img src="Socials/Github.jpg" alt="Github">
-</a>
-
-</div>
-</div>
-
-<img class="home-image" src="Images/ID Picture.png" alt="Cedric Picture">
-
-</section>
-
-
-<!-- ABOUT -->
-<section id="about">
-
-<div class="about-container">
-
-<h2>About Me</h2>
-
-<p>
-I am currently a 4th-year Bachelor of Science in Information Technology
-student specializing in Animation and Game Development. I focus on
-developing interactive gameplay systems and mechanics using Unity and C#.
-</p>
-
-<p>
-I enjoy working on the technical side of game development, designing
-structured systems, testing edge cases, and debugging complex logic
-to ensure stable and smooth player experiences.
-</p>
-
-<p>
-Aside from game development, I am also interested in exploring
-different areas of Information Technology to broaden my knowledge.
-</p>
-
-<p>
-My goal is to continuously improve my technical skills and contribute
-to projects that deliver polished and immersive games.
-</p>
-
-</div>
-
-</section>
-
-
-<!-- SKILLS -->
-<section id="skills">
-
-<div class="skills-container">
-
-<h2>Skills</h2>
-
-<div class="skills-grid">
-
-<div class="skill-card">
-
-<h3>Game Development</h3>
-
-<div class="skill">
-<span>Unity Engine - 65%</span>
-<div class="skill-bar">
-<div class="skill-fill unity"></div>
-</div>
-</div>
-
-<div class="skill">
-<span>Gameplay Systems - 60%</span>
-<div class="skill-bar">
-<div class="skill-fill gameplay"></div>
-</div>
-</div>
-
-</div>
-
-
-<div class="skill-card">
-
-<h3>Programming</h3>
-
-<div class="skill">
-<span>C# - 60%</span>
-<div class="skill-bar">
-<div class="skill-fill csharp"></div>
-</div>
-</div>
-
-<div class="skill">
-<span>Debugging & Testing - 80%</span>
-<div class="skill-bar">
-<div class="skill-fill debugging"></div>
-</div>
-</div>
-
-</div>
-
-
-<div class="skill-card">
-
-<h3>Tools</h3>
-
-<div class="skill">
-<span>Unity Editor - 90%</span>
-<div class="skill-bar">
-<div class="skill-fill editor"></div>
-</div>
-</div>
-
-<div class="skill">
-<span>Visual Studio - 80%</span>
-<div class="skill-bar">
-<div class="skill-fill vs"></div>
-</div>
-</div>
-
-</div>
-
-
-<div class="skill-card">
-
-<h3>Web Development</h3>
-
-<div class="skill">
-<span>HTML - 15%</span>
-<div class="skill-bar">
-<div class="skill-fill html"></div>
-</div>
-</div>
-
-<div class="skill">
-<span>CSS - 15%</span>
-<div class="skill-bar">
-<div class="skill-fill css"></div>
-</div>
-</div>
-
-<div class="skill">
-<span>JavaScript - 10%</span>
-<div class="skill-bar">
-<div class="skill-fill js"></div>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</section>
-
-
-<!-- PROJECTS -->
-<section id="projects">
-
-<div class="projects-container">
-
-<h2>Projects</h2>
-
-<div class="project-buttons">
-
-<button class="project-btn active" data-project="primordial">
-Primordial Horizons
-</button>
-
-<button class="project-btn" data-project="eco">
-EcoVentures
-</button>
-
-</div>
-
-
-<div class="projects-display">
-
-<div class="project-card active" id="primordial">
-
-<img src="Images/primordialportfolio.png" alt="Primordial Horizons">
-
-<div class="project-info">
-
-<h3>Primordial Horizons</h3>
-
-<p>
-A Real-Time Strategy survival game where players build structures,
-train units, gather resources, and defend their base.
-</p>
-
-<button class="view-project" data-project="primordial">
-View Project
-</button>
-
-</div>
-</div>
-
-
-<div class="project-card" id="eco">
-
-<img src="Images/ecoventures.png" alt="EcoVentures">
-
-<div class="project-info">
-
-<h3>EcoVentures</h3>
-
-<p>
-A single-player arcade simulation game where players 
-follow a student startup founder who creates eco-friendly products 
-from scrap materials and sells them to consumers while building a sustainable business.
-</p>
-
-<button class="view-project" data-project="eco">
-View Project
-</button>
-
-</div>
-</div>
-
-</div>
-
-
-<div class="project-details">
-
-<button class="back-projects">← Back to Projects</button>
-
-<h3 id="details-title"></h3>
-
-<div class="details-layout">
-
-<div class="details-text">
-
-<h4 class="about-game-title">About the Game</h4>
-
-<div id="details-description"></div>
-
-</div>
-
-<div class="details-media">
-
-<div class="details-images">
-
-<button class="img-prev">❮</button>
-
-<img id="details-img">
-
-<button class="img-next">❯</button>
-
-</div>
-
-<div class="details-video">
-
-<iframe
-id="details-video"
-width="100%"
-height="300"
-src=""
-frameborder="0"
-allowfullscreen>
-</iframe>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- CONTACT -->
-<section id="contacts">
-
-<div class="contact-container">
-
-<h2>Contact Me</h2>
-
-<p class="contact-text">
-Feel free to reach out if you would like to collaborate
-or discuss opportunities.
-</p>
-
-<div class="contact-links">
-
-<a href="mailto:cedricdion07@gmail.com" class="contact-card">
-<img src="Socials/gmail.png" alt="Email">
-<span>Email</span>
-</a>
-
-<a href="https://www.facebook.com/cedric.montano.79" target="_blank" class="contact-card">
-<img src="Socials/facebook.png" alt="Facebook">
-<span>Facebook</span>
-</a>
-
-<a href="https://www.linkedin.com/" target="_blank" class="contact-card">
-<img src="Socials/linkedin.png" alt="LinkedIn">
-<span>LinkedIn</span>
-</a>
-
-<a href="https://github.com/Crinx07" target="_blank" class="contact-card">
-<img src="Socials/Github.jpg" alt="Github">
-<span>Github</span>
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-
-<footer>
-<p>© 2026 Cedric Dion O. Montano | Aspiring Game Developer</p>
-</footer>
-
-<script src="script.js"></script>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">Portfolio</div>
+
+      <ul class="navbar">
+        <li><a class="navlink" href="#home">Home</a></li>
+        <li><a class="navlink" href="#about">About</a></li>
+        <li><a class="navlink" href="#skills">Skills</a></li>
+        <li><a class="navlink" href="#projects">Projects</a></li>
+        <li><a class="navlink" href="#contacts">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home">
+      <div class="home-text">
+        <h1>Hi, I'm Cedric Dion O. Montano</h1>
+
+        <h3 class="role">Aspiring Game Developer</h3>
+
+        <p class="home-description">
+          I develop games using Unity and C#, focusing on building gameplay
+          systems and mechanics. I enjoy testing, debugging, and refining game
+          logic to ensure smooth and reliable player experiences.
+        </p>
+
+        <div class="socials">
+          <a
+            href="https://www.facebook.com/cedric.montano.79"
+            target="_blank"
+            class="social-icon"
+          >
+            <img src="Socials/facebook.png" alt="Facebook" />
+          </a>
+
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="social-icon"
+          >
+            <img src="Socials/instagram.png" alt="Instagram" />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            class="social-icon"
+          >
+            <img src="Socials/linkedin.png" alt="LinkedIn" />
+          </a>
+
+          <a
+            href="https://github.com/Crinx07"
+            target="_blank"
+            class="social-icon"
+          >
+            <img src="Socials/Github.jpg" alt="Github" />
+          </a>
+        </div>
+      </div>
+
+      <img
+        class="home-image"
+        src="Images/ID Picture.png"
+        alt="Cedric Picture"
+      />
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-container">
+        <h2>About Me</h2>
+
+        <p>
+          I am currently a 4th-year Bachelor of Science in Information
+          Technology student specializing in Animation and Game Development. I
+          focus on developing interactive gameplay systems and mechanics using
+          Unity and C#.
+        </p>
+
+        <p>
+          I enjoy working on the technical side of game development, designing
+          structured systems, testing edge cases, and debugging complex logic to
+          ensure stable and smooth player experiences.
+        </p>
+
+        <p>
+          Aside from game development, I am also interested in exploring
+          different areas of Information Technology to broaden my knowledge.
+        </p>
+
+        <p>
+          My goal is to continuously improve my technical skills and contribute
+          to projects that deliver polished and immersive games.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="skills-container">
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+          <!-- Game Development -->
+          <div class="skill-card">
+            <h3>Game Development</h3>
+
+            <ul class="skill-list">
+              <li>Unity Engine</li>
+              <li>AI NavMesh</li>
+              <li>Game Testing & Debugging</li>
+            </ul>
+          </div>
+
+          <!-- Programming -->
+          <div class="skill-card">
+            <h3>Programming</h3>
+
+            <ul class="skill-list">
+              <li>C#</li>
+              <li>Object-Oriented Programming</li>
+              <li>Debugging & Optimization</li>
+            </ul>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-card">
+            <h3>Tools</h3>
+
+            <ul class="skill-list">
+              <li>Unity Editor</li>
+              <li>Visual Studio</li>
+            </ul>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-card">
+            <h3>Web Development</h3>
+
+            <ul class="skill-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Responsive Web Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="projects-container">
+        <h2>Projects</h2>
+
+        <div class="project-buttons">
+          <button class="project-btn active" data-project="primordial">
+            Primordial Horizons
+          </button>
+
+          <button class="project-btn" data-project="eco">EcoVentures</button>
+        </div>
+
+        <div class="projects-display">
+          <div class="project-card active" id="primordial">
+            <img
+              src="Images/primordialportfolio.png"
+              alt="Primordial Horizons"
+            />
+
+            <div class="project-info">
+              <h3>Primordial Horizons</h3>
+
+              <p>
+                A Real-Time Strategy survival game where players build
+                structures, train units, gather resources, and defend their
+                base.
+              </p>
+
+              <button class="view-project" data-project="primordial">
+                View Project
+              </button>
+            </div>
+          </div>
+
+          <div class="project-card" id="eco">
+            <img src="Images/ecoventures.png" alt="EcoVentures" />
+
+            <div class="project-info">
+              <h3>EcoVentures</h3>
+
+              <p>
+                A single-player arcade simulation game where players follow a
+                student startup founder who creates eco-friendly products from
+                scrap materials and sells them to consumers while building a
+                sustainable business.
+              </p>
+
+              <button class="view-project" data-project="eco">
+                View Project
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-details">
+          <button class="back-projects">← Back to Projects</button>
+
+          <h3 id="details-title"></h3>
+
+          <div class="details-layout">
+            <div class="details-text">
+              <h4 class="about-game-title">About the Game</h4>
+
+              <div id="details-description"></div>
+            </div>
+
+            <div class="details-media">
+              <div class="details-images">
+                <button class="img-prev">❮</button>
+
+                <img id="details-img" />
+
+                <button class="img-next">❯</button>
+              </div>
+
+              <div class="details-video">
+                <iframe
+                  id="details-video"
+                  width="100%"
+                  height="300"
+                  src=""
+                  frameborder="0"
+                  allowfullscreen
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contacts">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+
+        <p class="contact-text">
+          Feel free to reach out if you would like to collaborate or discuss
+          opportunities.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:cedricdion07@gmail.com" class="contact-card">
+            <img src="Socials/gmail.png" alt="Email" />
+            <span>Email</span>
+          </a>
+
+          <a
+            href="https://www.facebook.com/cedric.montano.79"
+            target="_blank"
+            class="contact-card"
+          >
+            <img src="Socials/facebook.png" alt="Facebook" />
+            <span>Facebook</span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            class="contact-card"
+          >
+            <img src="Socials/linkedin.png" alt="LinkedIn" />
+            <span>LinkedIn</span>
+          </a>
+
+          <a
+            href="https://github.com/Crinx07"
+            target="_blank"
+            class="contact-card"
+          >
+            <img src="Socials/Github.jpg" alt="Github" />
+            <span>Github</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Cedric Dion O. Montano | Aspiring Game Developer</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
